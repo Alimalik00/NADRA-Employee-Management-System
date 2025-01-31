@@ -1,0 +1,173 @@
+﻿
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    width: 1600px;
+    font-size: 19px;
+    text-align: center;
+    background-color: hsl(142, 97%, 39%);
+    color: #fff;
+    margin-bottom: -100px;
+    margin-top: -8px;
+    margin-left: -10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'LEMON MILK';
+    color: #282828;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-control {
+    width: 460px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+#imgEmployee {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Custom button style for "Edit" button */
+.btn-edit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(142, 97%, 39%); 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Hover style for the "Edit" button */
+    .btn-edit:hover {
+        background-color: #049210; 
+    }
+
+
+
+
+
+/* Styling for the popup container */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999; /* Make sure the popup is on top of other elements */
+}
+
+    /* Styling for the popup content */
+    .popup h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .popup p {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .popup button {
+        padding: 8px 16px;
+        background-color: hsl(142, 97%, 39%);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .popup button:hover {
+            background-color: #049210;
+        }
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 7px;
+    font-family: Arial, sans-serif;
+    width: 180px;
+    font-size: 17px;
+    text-align: center;
+    background-color: hsl(142, 97%, 39%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -1400px;
+    margin-top: 5px;
+}
+    button:hover {
+        background-color: #2a9e30;
+    }
+
+
+/* CSS for the download link */
+.download-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    .download-link:hover {
+        background-color: #0056b3;
+    }
+
+.document-links-container {
+    margin-top: 10px;
+}
+
+.btn-edit {
+    display:flex;
+    align-content: space-between;
+}
